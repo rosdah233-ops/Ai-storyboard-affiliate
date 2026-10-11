@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Ai Storyboard Affiliate</string>
+    <string name="header_badge">AI AFFILIATE VIDEO STUDIO</string>
+    <string name="header_title">Ai Storyboard Affiliate</string>
+    <string name="header_subtitle">Buat lembar storyboard visual 5-panel (9:16) untuk video affiliate 10 detik lengkap dengan prompt siap pakai untuk Google Flow.</string>
+
+    <!-- Section 1: Foto Produk (Wajib) -->
+    <string name="section_product_title">1. Foto Produk</string>
+    <string name="section_product_badge">WAJIB (1–5 FOTO)</string>
+    <string name="section_product_desc">Unggah minimal 1 dan maksimal 5 foto produk (tampak depan, belakang, detail bahan, tekstur, atau logo). AI mempertahankan detail asli produk 100%.</string>
+    <string name="btn_add_product_photos">Tambah Foto Produk</string>
+    <string name="btn_load_sample_product">Coba Foto Contoh</string>
+    <string name="btn_replace_photo">Ganti</string>
+    <string name="btn_remove_photo">Hapus</string>
+    <string name="slot_empty_label">Slot %1$d</string>
+
+    <!-- Section 2: Foto Model (Opsional) -->
+    <string name="section_model_title">2. Foto Model</string>
+    <string name="section_optional_badge">OPSIONAL</string>
+    <string name="section_model_desc">Format JPG, JPEG, atau PNG. Jika dikosongkan, AI akan membuat konsep model otomatis berdasarkan produk dan catatan Anda.</string>
+    <string name="btn_upload_model">Unggah Foto Model</string>
+
+    <!-- Section 3: Link Produk / Affiliate (Opsional) -->
+    <string name="section_link_title">3. Link Produk / Affiliate</string>
+    <string name="section_link_desc">Masukkan URL halaman produk untuk membantu AI mengenali nama, deskripsi, dan variasi produk.</string>
+    <string name="hint_product_url">https://...</string>
+    <string name="btn_detect_product">Deteksi Produk</string>
+    <string name="detecting_product">Mendeteksi halaman produk...</string>
+
+    <!-- Section 4: Background / Latar (Opsional) -->
+    <string name="section_bg_title">4. Background / Latar</string>
+    <string name="section_bg_desc">Unggah 1 referensi latar jika diinginkan. Jika kosong, AI menentukan background estetis yang paling cocok secara otomatis.</string>
+    <string name="btn_upload_bg">Unggah Background</string>
+
+    <!-- Section 5: Catatan Tambahan (Opsional) -->
+    <string name="section_notes_title">5. Mau Dibuat Seperti Apa?</string>
+    <string name="hint_user_notes">Contoh: model memperagakan produk dengan natural, latar butik mewah, cahaya hangat, kamera profesional, dan detail produk tetap sama.</string>
+
+    <!-- Section 6: Jumlah Variasi -->
+    <string name="section_variations_title">6. Jumlah Variasi Storyboard</string>
+    <string name="section_variations_desc">Setiap variasi menghasilkan 1 lembar gambar utuh (9:16) berisi 5 panel adegan (0–10 detik) dengan konsep dan angle kamera berbeda.</string>
+
+    <!-- Generate Button -->
+    <string name="btn_generate_storyboard">Generate Storyboard</string>
+    <string name="generating_storyboard">Sedang menyusun konsep &amp; membuat gambar storyboard...</string>
+
+    <!-- Results Section -->
+    <string name="results_header_title">Hasil Storyboard Visual (5 Panel • 9:16)</string>
+    <string name="btn_copy_all_prompts">Salin Semua Prompt</string>
+    <string name="btn_revise">Perbaiki</string>
+    <string name="btn_regenerate">Generate Ulang</string>
+    <string name="btn_download_storyboard">Download Storyboard</string>
+    <string name="btn_copy_prompt">Salin Prompt</string>
+    <string name="hint_revision_input">Tulis instruksi perbaikan (contoh: buat pencahayaan lebih hangat, panel 4 lebih fokus ke logo)...</string>
+    <string name="btn_apply_revision">Terapkan Perbaikan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="security_warning_banner">Peringatan Keamanan Prototipe: Kunci API disertakan dalam APK ini untuk keperluan pengujian. Jangan bagikan file APK ini secara publik.</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "Ai Storyboard Affiliate",
+  "description": "Generator storyboard visual 5-panel (9:16) bertenaga AI untuk konten video affiliate dengan analisis produk, deteksi link, dan prompt Google Flow otomatis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
